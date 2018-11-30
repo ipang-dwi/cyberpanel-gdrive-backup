@@ -1,0 +1,26 @@
+# =====================================================
+# ================ www.firstplato.com =================
+# ====== ip@ng.dwi ====== Bismillahirrohmanirrohiim ===
+# =====================================================
+# Backup file web pada cyberpanel ke gdrive
+# Pastikan masuk sebagai root
+sudo su
+# Download dulu gdrive cli
+wget -O /usr/sbin/gdrive https://docs.google.com/uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA && chmod +x /usr/sbin/gdrive
+# Coba dengan menjalankan perintah berikut
+gdrive list
+# Teman-teman akan diminta untuk mengakses link yang diberikan untuk melakukan autentikasi dengan oauth2
+# Masuk dengan akun gmail / gdrive teman-teman
+# Bila berhasil akan menampilkan seluruh list file yang ada di dalam gdrive teman-teman
+# Selanjutnya buat file backup.sh untuk melakukan backup ke gdrive
+vi backup.sh
+# Lihat file backup.sh yang ada pada / di dalam repo ini
+# Kemudian chmod file backup.sh
+chmod +x backup.sh
+# Teman-teman bisa melakukan backup dulu pada web yang ada pada cyberpanel
+# Setelah backup dilakukan, nb: bisa berkali-kali
+# Jalankan script backup.sh untuk mengupload file backup terakhir yang telah dibuat
+./backup.sh
+# Bila berhasil akan muncul pesan file telah terupload ke gdrive teman-teman
+# Bisa dicek dengan 'gdrive list' atau buka langsung akun gdrive di browser
+# ======================================================
