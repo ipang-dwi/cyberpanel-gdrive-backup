@@ -2,7 +2,7 @@
 # ================ www.firstplato.com =================
 # ====== ip@ng.dwi ====== Bismillahirrohmanirrohiim ===
 # =====================================================
-# Backup file web pada cyberpanel ke gdrive
+# ===== Backup file web pada cyberpanel ke gdrive =====
 # Pastikan masuk sebagai root
 sudo su
 # Download dulu gdrive cli
