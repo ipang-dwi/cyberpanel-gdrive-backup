@@ -1,4 +1,7 @@
 # cyberpanel-gdrive-backup
+
+<img src="https://img.shields.io/github/license/ipang-dwi/xdesktop.svg" /> <img src="https://img.shields.io/badge/lab-firstplato.com-red.svg" />
+
 Script backup Web pada panel Web Hosting Cyberpanel ke Google Drive - www.firstplato.com
 
 > Saya dedikasikan ini buat teman-teman yang ingin develop sendiri atau sekedar mempelajari cara develop VPS, dengan mempergunakan CyberPanel sebagai panel.. Silahkan lanjut baca manual.txt..
